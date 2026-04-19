@@ -1,0 +1,56 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #2d6a4f;
+  color: white;
+  padding: 0 2rem;
+  height: 60px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.brand {
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.link {
+  color: rgba(255,255,255,0.8);
+  font-size: 0.95rem;
+  font-weight: 500;
+  padding: 0.3rem 0;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s;
+}
+
+.link:hover, .active {
+  color: white;
+  border-bottom-color: #95d5b2;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 0.9rem;
+}
+
+.logout {
+  background: rgba(255,255,255,0.2);
+  border: none;
+  color: white;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  transition: background 0.2s;
+}
+
+.logout:hover {
+  background: rgba(255,255,255,0.35);
+}

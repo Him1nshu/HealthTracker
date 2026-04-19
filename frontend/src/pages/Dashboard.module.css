@@ -1,0 +1,104 @@
+.page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  font-size: 1.6rem;
+  color: #1a202c;
+}
+
+.sub {
+  color: #718096;
+  margin-top: 0.25rem;
+}
+
+.logBtn {
+  background: #2d6a4f;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: background 0.2s;
+  white-space: nowrap;
+}
+
+.logBtn:hover { background: #1b4332; }
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.statCard {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  border-top: 4px solid #ccc;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.statIcon { font-size: 1.8rem; margin-bottom: 0.5rem; }
+
+.statValue {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a202c;
+}
+
+.statValue span {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #718096;
+}
+
+.statLabel {
+  font-size: 0.85rem;
+  color: #718096;
+  margin-top: 0.2rem;
+}
+
+.chartSection {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.chartSection h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #4a5568;
+  margin-bottom: 1rem;
+}
+
+.chart { margin-top: 0.5rem; }
+
+.loading {
+  text-align: center;
+  color: #718096;
+  padding: 3rem;
+  font-size: 1.1rem;
+}
+
+.empty {
+  text-align: center;
+  padding: 4rem;
+  color: #718096;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.1rem;
+}
