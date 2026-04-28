@@ -2,6 +2,7 @@
   max-width: 1100px;
   margin: 0 auto;
   padding: 2rem 1.5rem;
+  overflow-x: hidden;
 }
 
 .title {
@@ -22,12 +23,13 @@
   background: white;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  width: 100%;
 }
 
 .table {
   width: 100%;
   border-collapse: collapse;
-  min-width: 700px;
+  table-layout: auto;
 }
 
 .table thead tr {
@@ -36,13 +38,14 @@
 }
 
 .table th {
-  padding: 0.9rem 1rem;
+  padding: 0.75rem 0.6rem;
   text-align: left;
-  font-size: 0.82rem;
+  font-size: 0.78rem;
   font-weight: 700;
   color: #4a5568;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.4px;
+  white-space: nowrap;
 }
 
 .table tbody tr {
@@ -54,18 +57,19 @@
 .table tbody tr:last-child { border-bottom: none; }
 
 .table td {
-  padding: 0.85rem 1rem;
-  font-size: 0.95rem;
+  padding: 0.75rem 0.6rem;
+  font-size: 0.9rem;
   color: #2d3748;
+  white-space: nowrap;
 }
 
 .notes {
-  max-width: 200px;
+  max-width: 160px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   color: #718096;
-  font-size: 0.88rem;
+  font-size: 0.85rem;
 }
 
 .deleteBtn {
